@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+
+
+
+body {
+  background-color: black;
+}
+
+          /* ##################################### NAV BAR ##################################### */
+
+nav {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  position: absolute;
+  right: 5px;
+  width: 275px;
+
+}
+
+nav a {
+  padding: 2px 10px 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.gapps {
+  width: 20px;
+}
+
+.not {
+  width: 25px;
+}
+
+.user {
+  width: 45px;
+}
+
+
+
+          /* ##################################### Containters ##################################### */
+
+ .a {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 13px;
+}
+
+.b {
+
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+  align-items: space-between;
+  flex-flow: row wrap;
+}
+
+          /* ##################################### LOGO AND SEARCH BAR ##################################### */
+
+.pic {
+  display: block;
+  width: 240px;
+  margin: 15px auto;
+}
+
+.search {
+  margin: 0 auto;
+  width: 450px;
+  position: relative;
+}
+
+.search input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 25px;
+  text-indent: 20px;
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+input:focus {
+  outline: none;
+
+}
+
+.microphone {
+  position: absolute;
+  right: 3px;
+  bottom: 0;
+}
+
+.mic {
+  width: 28px;
+}
+
+
+      /* ##################################### RECENT PAGES ##################################### */
+
+.thumb {
+  position: relative;
+  padding-top: 7px;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px auto;
+
+}
+
+.thumb:hover {
+  background: #262626;
+}
+
+#dots {
+  width: 6px;
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  visibility: hidden;
+}
+
+.thumb:hover #dots {
+  visibility: visible;
+}
+
+.in-thumb {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: white;
+  margin: 4px auto;
+}
+
+.thumb-text {
+  text-decoration: none;
+  font-size: 11px;
+  padding: 4px;
+  border-radius: 15px;
+  text-indent: 5px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-family: 'PT Sans', sans-serif;
+  max-width: 98px;
+  max-height: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+                  /* ################################# ICONS ################################# */
+
+.git {
+  background: url('Resources/git.jpg');
+  background-size: contain;
+}
+
+.fcc {
+  background: url('Resources/fcc.png');
+  background-size: contain;
+}
+
+.proton {
+  background: url('Resources/proton.png');
+  background-size: contain;
+}
+
+.fi {
+  background: url('Resources/fi.png');
+  background-size: contain;
+}
+
+.mdn {
+  background: url('Resources/mdn.png');
+  background-size: contain;
+}
+
+.so {
+  background: url('Resources/so.png');
+  background-size: contain;
+}
+
+.al {
+  background: url('Resources/al.png');
+  background-size: contain;
+}
+
+.add {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: white;
+  background: url('Resources/add.png');
+  background-size: contain;
+  margin: 4px auto;
+}
+
+                /* ########## ICONS END ########## */
+
+
+
+          /* ##################################### SETTINGS ICON ##################################### */
+
+.setting {
+  padding: 3px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+}
+
+.setting:hover {
+  background: #262626;
+}
+
+.set {
+  width: 25px;
+}
